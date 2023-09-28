@@ -1,0 +1,63 @@
+/* CSS for Netflix Clone */
+
+/* Container */
+
+  .navbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 10px 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+ 
+  
+  /* Search Bar */
+  input[type="text"] {
+    position: fixed;
+    right: 15px;
+    width: 20%;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 300px;
+    font-size: 16px;
+  }
+  
+  button1 {
+    padding: 5px 10px;
+    position: fixed;
+    right: 240px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button1:hover {
+    background-color: #ff3d30;
+  }
+  
+  /* Search Results */
+  .search-results {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
